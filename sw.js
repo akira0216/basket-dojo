@@ -1,6 +1,6 @@
 // オフラインでも使えるようにファイルを保存しておく
 // ファイルを更新したら VERSION を上げること（上げないと古いままになる）
-const VERSION = 'v0.2.1';
+const VERSION = 'v0.2.2';
 const FILES = [
   './',
   './index.html',
