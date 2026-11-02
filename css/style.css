@@ -83,7 +83,7 @@ svg { display: block; }
 .btn.ghost { background: transparent; }
 .btn-led {
   background: var(--led); border-color: var(--led); color: #1a1205;
-  font-family: var(--f-display); font-weight: 400; font-size: 1.05rem;
+  font-family: var(--f-body); font-weight: 700; font-size: 1.05rem; letter-spacing: .04em;
   box-shadow: 0 4px 0 #b37b10;
 }
 .btn-led:active { transform: translateY(3px); box-shadow: 0 1px 0 #b37b10; }
