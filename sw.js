@@ -1,6 +1,6 @@
 // オフラインでも使えるようにファイルを保存しておく
 // ファイルを更新したら VERSION を上げること（上げないと古いままになる）
-const VERSION = 'v0.1.0';
+const VERSION = 'v0.2.0';
 const FILES = [
   './',
   './index.html',
@@ -10,6 +10,9 @@ const FILES = [
   './js/store.js',
   './js/court.js',
   './data/questions.js',
+  './data/quiz-b2.js',
+  './data/quiz-b1.js',
+  './data/quiz-bp.js',
   './data/drills.js',
   './icons/icon-180.png',
   './icons/icon-192.png',

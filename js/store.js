@@ -17,6 +17,7 @@ window.Store = (() => {
     STAT_KEYS.forEach(k => { p.stats[k] = p.stats[k] || 0; });
     p.stages = p.stages || {};       // stageId -> { stars, bestRate }
     p.wrong = p.wrong || [];         // ふくしゅうする問題のID
+    p.solved = p.solved || [];       // 1回でもせいかいした問題のID（全問制覇の記録）
     p.drillCount = p.drillCount || {};
     p.drillDay = p.drillDay || {};   // drillId -> 最後にXPをもらった日
     p.days = p.days || [];           // 練習した日（YYYY-MM-DD）
